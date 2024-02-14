@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:pink;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    background-color:purple;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+header {
+    background-color: palevioletred;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.task-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.task-list {
+    background-color:palevioletred;
+    list-style: none;
+    padding: 0;
+}
+
+.task-item {
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
